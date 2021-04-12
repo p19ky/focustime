@@ -43,7 +43,7 @@ export default function App() {
       }
     };
 
-    console.log('lets run load focus history');
+    // console.log('lets run load focus history');
     loadFocusHistory();
   }, []);
 
@@ -64,7 +64,7 @@ export default function App() {
       }
     };
 
-    console.log('lets run saveFocusHistory');
+    // console.log('lets run saveFocusHistory');
     saveFocusHistory();
   }, [focusHistory]);
 
